@@ -1,0 +1,31 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.ls-orange {
+    background-color: #f45905 !important;
+}
+
+.ls-red {
+    background-color: #c70d3a !important;
+}
+
+.ls-purple {
+    background-color: #512c62 !important;
+}
+
+.ls-cyan {
+    background-color: #45969b !important;
+}
+
+.ls-yellow {
+    background-color: #e8aa00 !important;
+}
+
+.ls-green {
+    background-color: #009135 !important;
+}
+
+.blurb-card {
+    min-height: 500px;
+}
