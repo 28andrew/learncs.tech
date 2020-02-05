@@ -1,4 +1,5 @@
 <?php
+global $active;
 if (!isset($active)) {
     $active = "home";
 }
@@ -37,10 +38,25 @@ function activeSRIf($page) {
                     <a class="nav-link" href="/about">About<?=activeSRIf("about")?></a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item<?= activeCSSIf("bibliography") ?>">
+                    <a class="nav-link text-danger" href="/sources">MLA
+                        Bibliography<?= activeSRIf("bibliography") ?></a>
+                </li>
+            </ul>
+            <?php
+            if ($active != "search") {
+                ?>
+                <form target="_blank" class="form-inline my-2 my-lg-0"
+                      onsubmit="window.location.href='search'; return false; ">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit"
+                            onclick="window.location.href='search'; return false; ">Search
+                    </button>
+                </form>
+                <?php
+            }
+            ?>
         </div>
     </div>
 </nav>

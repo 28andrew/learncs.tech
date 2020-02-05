@@ -20,12 +20,20 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                 <h1 class="display-1 d-none d-lg-block">Learn Computer Science!</h1>
                 <p class="lead">Computer science is a growing college major and career field. Learn more about it on this website.</p>
             </div>
+            <div class="jumbotron" style="padding-top: 1rem; padding-bottom: .4rem;">
+                <div class="alert alert-warning" role="alert">
+                    This site is completely open source! Check out its source code on <a href="https://github.com/28andrew/learncs.tech"><img
+                                height="32" width="32"
+                                src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
+                                alt="github logo"/> GitHub
+                    </a>.
+                </div>
+            </div>
             <div class="jumbotron bg">
                 <h2>Interesting Facts</h2>
                 <hr class="mr-4">
                 <div class="row">
                     <?php
-                    // TODO : ADD FOOTNOTES
                     /*
                      *
                      * TEMPLATE:
@@ -52,7 +60,7 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
                                         “Computing makes up 2/3 of projected new jobs in STEM (Science, Technology,
-                                        Engineering, and Math).”
+                                        Engineering, and Math).” <a style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">Computing is a huge field and constitutes the biggest proportion of STEM careers.</a>
@@ -67,7 +75,8 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
                                         “Nine in ten parents want their child to study computer science, but only one in
-                                        four schools teach computer programming.”
+                                        four schools teach computer programming.” <a style="font-size: 12px;">("Blurbs
+                                            and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">Parents have a great demand for computer science education in schools that is not fully met by them. This gap can be partially bridged with online educational resources such as this website.
@@ -83,7 +92,8 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                     <p class="mb-0">
                                         “Computing occupations are among the highest-paying jobs for new graduates. Yet
                                         fewer than 3% of college students graduate with a degree in computer science,
-                                        and only 8% of STEM graduates are in computer science.”
+                                        and only 8% of STEM graduates are in computer science.” <a
+                                                style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">More STEM graduates should go into computer science, or just college students in general.</p>
@@ -97,7 +107,8 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
                                         “In 22 states, computer science classes don’t count toward math or science high
-                                        school graduation requirements.”
+                                        school graduation requirements.” <a style="font-size: 12px;">("Blurbs and
+                                            Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">It's the 21st century, computer science is just as relevant as a material science is.</p>
@@ -112,7 +123,7 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                     <p class="mb-0">
                                         "Every 21st century child should have a chance to learn about algorithms, how to
                                         make an app, or how the internet works. Just like how they learn about
-                                        photosynthesis, the digestive system, or electricity."
+                                        photosynthesis, the digestive system, or electricity." <a style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">Computer science education is relevant to 21st century children with technology becoming ever so omnipresent in society.</p>
@@ -125,7 +136,7 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                             <div class="card-body">
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
-                                        “Computing jobs are the #1 source of new wages in the US.”
+                                        “Computing jobs are the #1 source of new wages in the US.” <a style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">There is simply no other type of job that constitutes more of the new wages in the US.</p>
@@ -141,7 +152,7 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                     <p class="mb-0">
                                         “Computing is changing every part of our lives, from how we interact with each
                                         other to how we do our jobs," according to a report from the Code.org Advocacy
-                                        Coalition and the Computer Science Teachers Association.”
+                                        Coalition and the Computer Science Teachers Association.” <a style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">Try to think of one industry that has not been touched by computing. Almost every single industry has been touched by computing whether directly or indirectly whether it is obvious or not.</p>
@@ -157,7 +168,7 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                     <p class="mb-0">
                                         “Code.org and CSTA also found that black, Hispanic, poor, and rural students are
                                         less likely than their peers to attend a high school that provides access to
-                                        computer science courses.”
+                                        computer science courses.” <a style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">Underrepresented minorities are even underrepresented in terms of computer science education in high schools.</p>
@@ -174,7 +185,7 @@ include($_SERVER["DOCUMENT_ROOT"] . '/common.php');
                                         “Fifteen states now require all high schools to offer computer science, up from
                                         four last year. Several states, including Florida, Indiana, New Hampshire, and
                                         Wyoming, now also require that schools offer some computer science instruction
-                                        prior to high school.”
+                                        prior to high school.” <a style="font-size: 12px;">("Blurbs and Useful")</a>
                                     </p>
                                 </blockquote>
                                 <p class="card-text">States are taking initiative in implementing computer science education, given its significance.</p>
