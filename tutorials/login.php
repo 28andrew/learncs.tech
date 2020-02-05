@@ -30,6 +30,15 @@ if (isset($_POST) && isset($_POST['type'])) {
                 'pass_hash' => password_hash($password, PASSWORD_DEFAULT),
                 'token' => $token
             ));
+
+            $mysqli = DB::get();
+
+            try {
+                $mysqli->query('UPDATE `statistics` SET `value`=`value`+1 WHERE name="users"');
+            } catch (Exception $e) {
+                die("Failed to add user. " . $e->getMessage());
+            }
+
             loginWithToken($token);
         } else {
             alert("Account with email already exists.");

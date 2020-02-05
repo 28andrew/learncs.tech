@@ -1,4 +1,5 @@
 <?php
+$userId = $userEmail = '';
 if (!isset($_COOKIE['token'])) {
     loginRedirect();
 } else {

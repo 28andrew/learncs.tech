@@ -17,11 +17,10 @@ import('navbar.php')
 ?>
 <div class="container">
     <h1>Tutorials</h1>
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-        <iframe src="//jsfiddle.net/skelly/FX44w/embedded/"
-                style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"
-                allowfullscreen></iframe>
-    </div>
+    <p>All tutorials on this site utilize an embedded version of the free PaizaCloud IDE for code running.</p>
+
+    <h3><a href="0-code-editor.php">Tutorial 0 - Using the Code Editor</a></h3>
+    <br/>
 </div>
 <?php import('footer.php') ?>
 </body>
