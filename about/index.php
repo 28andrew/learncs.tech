@@ -40,8 +40,8 @@
                     }
                     ?>
                 </h1>
-                <p>Users:  <?=$users?></p>
-                <p>Views: <?= $views ?></p>
+                <p>Registered Users:  <?=$users?></p>
+                <p>Total Site Views: <?= $views ?></p>
                 <p>Tutorial Completions: <?= $completions ?></p>
             </div>
         </div>
