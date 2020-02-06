@@ -48,10 +48,10 @@ function activeSRIf($page) {
             if ($active != "search") {
                 ?>
                 <form target="_blank" class="form-inline my-2 my-lg-0"
-                      onsubmit="window.location.href='search'; return false; ">
+                      onsubmit="window.location.href='/search'; return false; ">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light my-2 my-sm-0" type="submit"
-                            onclick="window.location.href='search'; return false; ">Search
+                            onclick="window.location.href='/search'; return false; ">Search
                     </button>
                 </form>
                 <?php
