@@ -37,7 +37,7 @@ import('navbar.php')
 
 <?php import('footer.php') ?>
 <?php
-create_checkbox($userId, 5);
+create_checkbox($userId, 6);
 ?>
 </body>
 </html>

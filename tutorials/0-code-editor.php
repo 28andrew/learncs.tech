@@ -75,7 +75,7 @@ import('navbar.php')
     <div class="collapse" id="collapse2">
         <p>
             The line <code>System.out.println("Hello World!");</code> is called a <b>statement</b>. Statements do one task
-            which is execute code. A group of statements make up a method, as mentioned earlier. All statements are
+            which is execute code. A group of statements make up a method, as mentioned earlier. Statements in these methods run one after another. All statements are
             ended in a semicolon (;). A method may have arguments which are values passed to them. The argument for the <code>main</code> function is an array of strings <code>args</code>. In this case, and in most uses of <code>public static void main(String[] args)</code>, that String array (array is a list of items) represents the user input delimited by spaces.
         </p>
         <p>
@@ -86,6 +86,19 @@ import('navbar.php')
 <pre><code class="java">String text = "Hello World!";
 System.out.println(text);
 </code> </pre>
+
+        <p>
+            <b>Comments</b> can be used in Java which allow notes to be written in the code without being interpreted by the thing that readers the code, the compiler. Comments are denoted by starting with <code>//</code> or using the pair <code>/*</code> and <code>*/<code> (the pair would be for multi-line comments.
+        </p>
+
+<pre><code class="java">// This is a comment
+int i = 10; // This is another comment at the end of a line
+/* This
+      Comment
+        Spans
+          Multiple Lines
+*/
+</code></pre>
     </div>
 
     <br/>

@@ -19,7 +19,7 @@ import('navbar.php')
 <div class="container">
     <h1>Tutorial 1 - Boolean Logic</h1>
     <p>
-        The last program in Tutorial 0 just did one thing and then finished. A lot of the time, it is desirable to have a program do different things depending on the state of different variables. Your code can branch off to do different statements depending on a <b>condition</b>. This can be done through if-then (<code>if (condition) { }</code>)and if-then-else statements (<code>if (condition) { } else { }</code>)in Java and many other languages. Try this example of a condition (it compares a number, so try comparing the number and see what happens to the output):
+        The last program in Tutorial 0 just did one thing and then finished. A lot of the time, it is desirable to have a program do different things depending on the state of different variables. Your code can branch off to do different statements depending on a <b>condition</b>. This can be done through if-then (<code>if (condition) { }</code>)and if-then-else statements (<code>if (condition) { } else { }</code>)in Java and many other languages. A condition is a <code>boolean</code> which can have a state of being true or being false. Try this example of a condition (it compares a number, so try comparing the number and see what happens to the output):
     </p>
 <pre><code class="java">int number = 99;
 if (number >= 100) {
