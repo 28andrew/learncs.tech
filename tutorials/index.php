@@ -50,8 +50,6 @@ function checkIfDone($id) {
     <br/>
     <h3><a href="5-arrays.php"><?php checkIfDone(5) ?>Tutorial 5 - Arrays</a></h3>
     <br/>
-    <h3><a href="6-user-input.php"><?php checkIfDone(6) ?>Tutorial 6 - Manipulating User Input</a></h3>
-    <br/>
 </div>
 <?php import('footer.php') ?>
 </body>
